@@ -1,7 +1,7 @@
 # builtincmds.po
 # 
 # Localizers:
-# LOCALIZER <EMAIL>
+# Sandro Della Giustina <sandrodll@yahoo.it"
 
 msgid ""
 msgstr ""
@@ -12,41 +12,42 @@ msgstr ""
 #. use | to separate multiple name values:
 msgctxt "help.names"
 msgid "help|about|?"
-msgstr ""
+msgstr "aiuto|cos'è|?"
 
 msgctxt "help.description"
 msgid "Takes you to the Ubiquity <a href=\"about:ubiquity\">main help page</a>.<br/>\n"
 "      Or, enter the name of a command to get help on that command."
-msgstr ""
+msgstr "Apre la pagina principale <a href=\"about:ubiquity\">pagina principale</a>.<br/>\n"
+"      Oppure, specificando il nome di un comando, apre la pagina di aiuto del comando stesso.""
 
 
 #. open (ubiquity settings page) command:
 #. use | to separate multiple name values:
 msgctxt "open (ubiquity settings page).names"
 msgid "open|show"
-msgstr ""
+msgstr "apri|mostra"
 
 msgctxt "open (ubiquity settings page).description"
 msgid "Opens one of the Ubiquity documentation/settings pages."
-msgstr ""
+msgstr "Apre le pagine di documentazione/impostazione di Ubiquity."
 
 
 #. write ubiquity commands command:
 #. use | to separate multiple name values:
 msgctxt "write ubiquity commands.names"
 msgid "write ubiquity commands|edit ubiquity commands|hack ubiquity"
-msgstr ""
+msgstr "scrivi script per Ubiquity|modifica script per Ubiquity"
 
 msgctxt "write ubiquity commands.description"
 msgid "Takes you to the Ubiquity <a href=\"chrome://ubiquity/content/editor.html\">command editor</a> page."
-msgstr ""
+msgstr "Apre l'<a href=\"chrome://ubiquity/content/editor.html\">editor dei comandi</a> di Ubiquity."
 
 
 #. list ubiquity commands command:
 #. use | to separate multiple name values:
 msgctxt "list ubiquity commands.names"
 msgid "list ubiquity commands"
-msgstr ""
+msgstr "Elenca tutti i comandi di Ubiquity"
 
 msgctxt "list ubiquity commands.description"
 msgid "Opens <a href=\"chrome://ubiquity/content/cmdlist.html\">the list</a>\n"
@@ -58,7 +59,7 @@ msgstr ""
 #. use | to separate multiple name values:
 msgctxt "change ubiquity settings.names"
 msgid "change ubiquity settings|change ubiquity preferences|change ubiquity skin"
-msgstr ""
+msgstr "modifica impostazioni di ubiquity|modifica preferenze di ubiquity|modifica tema di ubiquity"
 
 msgctxt "change ubiquity settings.description"
 msgid "Takes you to the <a href=\"chrome://ubiquity/content/settings.html\">settings</a> page,\n"
@@ -70,7 +71,7 @@ msgstr ""
 #. use | to separate multiple name values:
 msgctxt "get support.names"
 msgid "get support"
-msgstr ""
+msgstr "ottieni supporto"
 
 msgctxt "get support.description"
 msgid "Takes you to the <a href=\"chrome://ubiquity/content/support.html\">support</a> page,\n"
@@ -82,33 +83,33 @@ msgstr ""
 #. use | to separate multiple name values:
 msgctxt "report bug.names"
 msgid "report bug"
-msgstr ""
+msgstr "segnala bug"
 
 msgctxt "report bug.description"
 msgid "Takes you to the <a href=\"chrome://ubiquity/content/report-bug.html\">bug report</a> page."
-msgstr ""
+msgstr "Apre la pagina per la <a href=\"chrome://ubiquity/content/report-bug.html\">segnalazione bug</a>."
 
 
 #. disable command command:
 #. use | to separate multiple name values:
 msgctxt "disable command.names"
 msgid "disable command"
-msgstr ""
+msgstr "Disattiva comando"
 
 msgctxt "disable command.description"
 msgid "Disables a Ubiquity command, so that it will no longer show up in the suggestion list."
-msgstr ""
+msgstr "Disattiva un comando, in questo modo non verrà più suggerito da Ubiquity in futuro."
 
 
 #. enable command command:
 #. use | to separate multiple name values:
 msgctxt "enable command.names"
 msgid "enable command"
-msgstr ""
+msgstr "attiva comando"
 
 msgctxt "enable command.description"
 msgid "Re-enables a Ubiquity command that you disabled."
-msgstr ""
+msgstr "Riattiva un comando che è stato disattivato."
 
 
 #. command history command:
@@ -128,7 +129,7 @@ msgstr ""
 
 msgctxt "command history.description"
 msgid "Accesses your command history."
-msgstr ""
+msgstr "Accede allo storico comandi."
 
 
 
