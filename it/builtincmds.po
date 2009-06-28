@@ -12,12 +12,12 @@ msgstr ""
 #. use | to separate multiple name values:
 msgctxt "help.names"
 msgid "help|about|?"
-msgstr "aiuto|cos'è|?"
+msgstr "aiuto|a cosa serve|?"
 
 msgctxt "help.description"
 msgid "Takes you to the Ubiquity <a href=\"about:ubiquity\">main help page</a>.<br/>\n"
 "      Or, enter the name of a command to get help on that command."
-msgstr "Apre la pagina principale <a href=\"about:ubiquity\">pagina principale</a>.<br/>\n"
+msgstr "Apre la <a href=\"about:ubiquity\">pagina principale</a> della guida di Ubiquity.<br/>\n"
 "      Oppure, specificando il nome di un comando, apre la pagina di aiuto del comando stesso.""
 
 
@@ -36,7 +36,7 @@ msgstr "Apre le pagine di documentazione/impostazione di Ubiquity."
 #. use | to separate multiple name values:
 msgctxt "write ubiquity commands.names"
 msgid "write ubiquity commands|edit ubiquity commands|hack ubiquity"
-msgstr "scrivi script per Ubiquity|modifica script per Ubiquity"
+msgstr "scrivi comando per ubiquity|modifica comando per ubiquity"
 
 msgctxt "write ubiquity commands.description"
 msgid "Takes you to the Ubiquity <a href=\"chrome://ubiquity/content/editor.html\">command editor</a> page."
@@ -47,12 +47,13 @@ msgstr "Apre l'<a href=\"chrome://ubiquity/content/editor.html\">editor dei coma
 #. use | to separate multiple name values:
 msgctxt "list ubiquity commands.names"
 msgid "list ubiquity commands"
-msgstr "Elenca tutti i comandi di Ubiquity"
+msgstr "elenco comandi disponibili"
 
 msgctxt "list ubiquity commands.description"
 msgid "Opens <a href=\"chrome://ubiquity/content/cmdlist.html\">the list</a>\n"
 "      of all Ubiquity commands available and what they all do."
-msgstr ""
+msgstr "Apre una pagina con <a href=\"chrome://ubiquity/content/cmdlist.html\">l'elenco</a>\n"
+"      di tutti i comandi disponibili in Ubiquity assieme a una breve guida al loro utilizzo."
 
 
 #. change ubiquity settings command:
@@ -64,7 +65,8 @@ msgstr "modifica impostazioni di ubiquity|modifica preferenze di ubiquity|modifi
 msgctxt "change ubiquity settings.description"
 msgid "Takes you to the <a href=\"chrome://ubiquity/content/settings.html\">settings</a> page,\n"
 "      where you can change your skin, key combinations, etc."
-msgstr ""
+msgstr "Apre la <a href=\"chrome://ubiquity/content/settings.html\">delle impostazioni</a> di Ubiquity,\n"
+"     dalla quale è possibile modificare la combinazione da tastiera, il tema, ecc."
 
 
 #. get support command:
@@ -76,7 +78,8 @@ msgstr "ottieni supporto"
 msgctxt "get support.description"
 msgid "Takes you to the <a href=\"chrome://ubiquity/content/support.html\">support</a> page,\n"
 "    where you can report bugs, get troubleshooting help, etc."
-msgstr ""
+msgstr "Apre la pagina <a href=\"chrome://ubiquity/content/support.html\">del supporto</a>,\n"
+"    dalla quale è¨ possibile segnalare problemi, eseguire una procedura per la risoluzione degli stessi, ecc."
 
 
 #. report bug command:
@@ -94,7 +97,7 @@ msgstr "Apre la pagina per la <a href=\"chrome://ubiquity/content/report-bug.htm
 #. use | to separate multiple name values:
 msgctxt "disable command.names"
 msgid "disable command"
-msgstr "Disattiva comando"
+msgstr "disattiva comando"
 
 msgctxt "disable command.description"
 msgid "Disables a Ubiquity command, so that it will no longer show up in the suggestion list."
@@ -116,7 +119,7 @@ msgstr "Riattiva un comando che è stato disattivato."
 #. use | to separate multiple name values:
 msgctxt "command history.names"
 msgid "command history|vita"
-msgstr ""
+msgstr "storico comandi|storia|vita"
 
 msgctxt "command history.help"
 msgid "<ul style=\"list-style-image:none\">\n"
@@ -125,7 +128,12 @@ msgid "<ul style=\"list-style-image:none\">\n"
 "    <li>Execute to delete all matched histories.</li>\n"
 "    <li>Edit <a href=\"about:config\"><code>extensions.ubiquity.history.max</code></a> to\n"
 "      set max number of histories.</li></ul>"
-msgstr ""
+msgstr "<ul style=\"list-style-image:none\">\n"
+"    <li>Utilizzare l'accesskey o fare clic per ripristinare.</li>\n"
+"    <li>Digita del testo per filtrare.</li>\n"
+"    <li>Eseguire per rimuovere la cronologia selezionata.</li>\n"
+"     <li>Per impostare il numero massimo di eventi visualizzati\n"
+"    modificare <a href=\"about:config\"><code>extensions.ubiquity.history.max</code></a>.</li></ul>"
 
 msgctxt "command history.description"
 msgid "Accesses your command history."
