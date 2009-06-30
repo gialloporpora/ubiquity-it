@@ -1,7 +1,7 @@
 # calendar.po
 # 
+# Localizers:
 # Sandro Della Giustina <sandrodll@yahoo.it>
-# LOCALIZER <EMAIL>
 
 msgid ""
 msgstr ""
@@ -12,7 +12,7 @@ msgstr ""
 #. use | to separate multiple name values:
 msgctxt "add (to calendar).names"
 msgid "add"
-msgstr "aggiungi"
+msgstr "aggiungi al calendario"
 
 msgctxt "add (to calendar).help"
 msgid "<a href=\"http://www.google.com/support/calendar/bin/answer.py?answer=36604\" title=\"Quick Add\">Enter the event naturally</a>\n"
@@ -22,7 +22,7 @@ msgid "<a href=\"http://www.google.com/support/calendar/bin/answer.py?answer=366
 "  <li>Jono's Birthday on Friday</li>\n"
 "</ul><p>Currently, only works with <a href=\"http://calendar.google.com\">Google Calendar</a> so you'll need a Google account to use it.</p>"
 msgstr "<a href=\"http://www.google.com/support/calendar/bin/answer.py?answer=36604\" title=\"Quick Add\">Enter the event naturally</a>\n"
-". e.g.:\n"
+". per esempio:\n"
 "<ul>\n"
 "  <li>3pm Lunch with Myk and Thunder</li>\n"
 "  <li>Jono's Birthday on Friday</li>\n"
@@ -30,7 +30,7 @@ msgstr "<a href=\"http://www.google.com/support/calendar/bin/answer.py?answer=36
 
 msgctxt "add (to calendar).description"
 msgid "Adds an event to your calendar."
-msgstr ""
+msgstr "Aggiunge un evento al calendario."
 
 msgctxt "add (to calendar).execute"
 msgid "Event created"
@@ -49,7 +49,7 @@ msgstr "controlla calendario|controlla calendario google"
 
 msgctxt "check google calendar.help"
 msgid "Try issuing \"check on thursday\"<p>Currently, only works with <a href=\"http://calendar.google.com\">Google Calendar</a> so you'll need a Google account to use it.</p>"
-msgstr ""
+msgstr  "Provare con \"controlla martedì\"<p>Al momento, questo comando funziona solamente con <a href=\"http://calendar.google.com\">il calendario di Google</a> quindi è necessario averne uno per poterlo utilizzare.</p>"
 
 msgctxt "check google calendar.description"
 msgid "Checks what events are on your calendar for a given date."
