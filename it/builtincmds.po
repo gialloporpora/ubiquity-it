@@ -18,7 +18,7 @@ msgctxt "help.description"
 msgid "Takes you to the Ubiquity <a href=\"about:ubiquity\">main help page</a>.<br/>\n"
 "      Or, enter the name of a command to get help on that command."
 msgstr "Apre la <a href=\"about:ubiquity\">pagina principale</a> della guida di Ubiquity.<br/>\n"
-"      Oppure, specificando il nome di un comando, apre la pagina di aiuto del comando stesso.""
+"      Oppure, specificando il nome di un comando, apre la pagina di aiuto del comando stesso."
 
 
 #. open (ubiquity settings page) command:
