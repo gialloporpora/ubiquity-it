@@ -38,7 +38,7 @@ msgstr "L'evento è stato aggiunto al calendario"
 
 msgctxt "add (to calendar).execute"
 msgid "Error creating the event"
-msgstr "Errore cercando di creare l'evento"
+msgstr "Errore cercando di aggiungere l'evento al calendario"
 
 
 #. check google calendar command:
