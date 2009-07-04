@@ -52,8 +52,9 @@ msgstr "elenco comandi disponibili"
 msgctxt "list ubiquity commands.description"
 msgid "Opens <a href=\"chrome://ubiquity/content/cmdlist.html\">the list</a>\n"
 "      of all Ubiquity commands available and what they all do."
-msgstr "Apre una pagina con <a href=\"chrome://ubiquity/content/cmdlist.html\">l'elenco</a>\n"
-"      di tutti i comandi disponibili in Ubiquity assieme ad una breve descrizione circa il loro utilizzo."
+msgstr "Apre una <a href=\"chrome://ubiquity/content/cmdlist.html\">pagina</a>\n"
+"      in cui sono elencati tutti i comandi disponibili e per ognuno viene spiegato in breve a cosa serve."
+
 
 
 #. change ubiquity settings command:
