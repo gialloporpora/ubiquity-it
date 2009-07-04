@@ -1,0 +1,274 @@
+# firefox.po
+# 
+# Localizers:
+# Sandro Della Giustina <sandrodll@yahoo.it>
+
+msgid ""
+msgstr ""
+"Project-Id-Version: Ubiquity 0.5\n"
+"POT-Creation-Date: 2009-06-20 00:45+0900\n"
+
+#. exit firefox command:
+#. use | to separate multiple name values:
+msgctxt "exit firefox.names"
+msgid "exit firefox"
+msgstr "esci"
+
+msgctxt "exit firefox.description"
+msgid "Exits Firefox."
+msgstr "Esce da Firefox."
+
+
+#. restart firefox command:
+#. use | to separate multiple name values:
+msgctxt "restart firefox.names"
+msgid "restart firefox"
+msgstr "riavvia firefox"
+
+msgctxt "restart firefox.description"
+msgid "Restarts Firefox."
+msgstr "Riavvia Firefox"
+
+
+#. close window command:
+#. use | to separate multiple name values:
+msgctxt "close window.names"
+msgid "close window"
+msgstr "chiudi finestra"
+
+msgctxt "close window.description"
+msgid "Closes current window."
+msgstr "Chiude la finestra in uso."
+
+
+#. fullscreen command:
+#. use | to separate multiple name values:
+msgctxt "fullscreen.names"
+msgid "fullscreen"
+msgstr "schermo intero"
+
+msgctxt "fullscreen.description"
+msgid "Toggles fullscreen mode."
+msgstr "Imposta la modalità schermo intero"
+
+
+#. switch to tab command:
+#. use | to separate multiple name values:
+msgctxt "switch to tab.names"
+msgid "switch to tab"
+msgstr "cambia scheda"
+
+msgctxt "switch to tab.description"
+msgid "Switches to the tab whose title or URL matches the input."
+msgstr "Passa alla scheda il cui titolo o indirizzo contengono il testo digitato."
+
+
+#. close tab command:
+#. use | to separate multiple name values:
+msgctxt "close tab.names"
+msgid "close tab"
+msgstr "chiudi scheda"
+
+msgctxt "close tab.description"
+msgid "Closes the tab whose title or URL matches the input or the current tab if no tab matches."
+msgstr "Chiude la scheda il cui titolo o indirizzo contengono  il testo digitato, oppure, in mancanza di una corrispondenza, la scheda in uso."
+
+
+#. close all tabs with command:
+#. use | to separate multiple name values:
+msgctxt "close all tabs with.names"
+msgid "close all tabs with"
+msgstr "chiudi tutte le schede con"
+
+msgctxt "close all tabs with.description"
+msgid "Closes all open tabs that have the given word in common."
+msgstr "Chiude tutte le schede che contengono la parola specificata."
+
+msgctxt "close all tabs with.execute"
+msgid "${num} tabs closed."
+msgstr ""
+
+
+#. count tabs command:
+#. use | to separate multiple name values:
+msgctxt "count tabs.names"
+msgid "count tabs"
+msgstr "quante schede|conta schede"
+
+msgctxt "count tabs.description"
+msgid "Counts the number of opened tabs."
+msgstr "Visualizza il numero di schede aperte."
+
+# added manually by mitcho
+# template in _count: no msgctxt as it is shared between preview + execute
+msgid "<div class="count-tabs"><b>${count}</b> tab{if count > 1}s{/if} {if html}matching <b>${html}</b>{else}total{/if}</b>.</div>"
+msgstr "<div class="count-tabs"><b>${count}</b> tab{if count > 1}s{/if} {if html}matching <b>${html}</b>{else}total{/if}</b>.</div>"
+
+
+#. refresh command:
+#. use | to separate multiple name values:
+msgctxt "refresh.names"
+msgid "refresh|reload"
+msgstr "ricarica|refresh"
+
+msgctxt "refresh.description"
+msgid "Refreshes the current page."
+msgstr "Ricarica la pagina corrente."
+
+
+#. bookmark command:
+#. use | to separate multiple name values:
+msgctxt "bookmark.names"
+msgid "bookmark"
+msgstr "aggiungi ai segnalibri"
+
+msgctxt "bookmark.description"
+msgid "Adds the current page to bookmarks."
+msgstr "Aggiunge la pagina corrente ai segnalibri."
+
+msgctxt "bookmark.execute"
+msgid "Page could not be bookmarked!"
+msgstr "La pagina non può essere aggiunta ai segnalibri."
+
+
+#. print command:
+#. use | to separate multiple name values:
+msgctxt "print.names"
+msgid "print"
+msgstr "stampa"
+
+msgctxt "print.description"
+msgid "Prints the current page."
+msgstr "Stampa la pagina corrente."
+
+
+#. go back command:
+#. use | to separate multiple name values:
+msgctxt "go back.names"
+msgid "go back"
+msgstr "indietro"
+
+msgctxt "go back.description"
+msgid "Goes back in history."
+msgstr "Torna alla pagina precedente."
+
+
+#. go forward command:
+#. use | to separate multiple name values:
+msgctxt "go forward.names"
+msgid "go forward"
+msgstr "avanti"
+
+msgctxt "go forward.description"
+msgid "Goes forward in history."
+msgstr "Va alla pagina successiva nella cronologia."
+
+
+#. go home command:
+#. use | to separate multiple name values:
+msgctxt "go home.names"
+msgid "go home"
+msgstr "pagina iniziale"
+
+msgctxt "go home.description"
+msgid "Goes to home page."
+msgstr "Va alla pagina iniziale."
+
+
+#. zoom command:
+#. use | to separate multiple name values:
+msgctxt "zoom.names"
+msgid "zoom"
+msgstr "zoom"
+
+msgctxt "zoom.description"
+msgid "Zooms the Firefox window in or out."
+msgstr "Aumenta/diminuisce il livello di ingrandimento della pagina."
+
+msgctxt "zoom.preview"
+msgid "Zooms the Firefox window to ${text} of its normal size."
+msgstr "Zooms the Firefox window to ${text} of its normal size."
+
+
+#. tag command:
+#. use | to separate multiple name values:
+msgctxt "tag.names"
+msgid "tag"
+msgstr "etichetta|tag"
+
+msgctxt "tag.help"
+msgid "Use commas to separate multiple tags."
+msgstr ""
+
+msgctxt "tag.description"
+msgid "Adds tags to the current page."
+msgstr "Aggiunge delle etichette alla pagina corrente."
+
+msgctxt "tag.preview"
+msgid "Describes the current page with{if html} these tags:<p><b>${html}</b></p>{else} tags.{/if}"
+msgstr "Describes the current page with{if html} these tags:<p><b>${html}</b></p>{else} tags.{/if}"
+
+
+#. run bookmarklet command:
+#. use | to separate multiple name values:
+msgctxt "run bookmarklet.names"
+msgid "run bookmarklet|bml"
+msgstr "esegui bookmarklet"
+
+msgctxt "run bookmarklet.help"
+msgid "Enter nothing to reload the list."
+msgstr "Non specificare alcun argomento per ricaricare la lista."
+
+msgctxt "run bookmarklet.description"
+msgid "Runs a bookmarklet from your favorites."
+msgstr "Esegue un bookmarklet dai segnalibri."
+
+msgctxt "run bookmarklet.preview"
+msgid "<pre class=\\\"bookmarklet\\\" style=\\\"white-space:pre-wrap\\\">${data}</pre>"
+msgstr "<pre class=\\\"bookmarklet\\\" style=\\\"white-space:pre-wrap\\\">${data}</pre>"
+
+
+#. undo closed tabs command:
+#. use | to separate multiple name values:
+msgctxt "undo closed tabs.names"
+msgid "undo closed tabs|uct"
+msgstr "ripristina scheda"
+
+msgctxt "undo closed tabs.help"
+msgid "<ul style=\"list-style-image:none\">\n"
+"    <li>Use accesskey or click to undo.</li>\n"
+"    <li>Type to filter, then execute to undo all.</li>\n"
+"    </ul>"
+msgstr "<ul style=\"list-style-image:none\">\n"
+"    <li>Utilizzare l'accesskey numerico o fare clic per ripristinare.</li>\n"
+"    <li>Digitare del testo per filtrare l'elenco, eseguire il comando per ripristinare tutte le schede che vengono visualizzatel.</li>\n"
+"    </ul>"
+
+msgctxt "undo closed tabs.description"
+msgid "Reopens tabs you've closed recently."
+msgstr "Riapre una scheda chiusa di recente."
+
+msgctxt "undo closed tabs.preview"
+msgid "No closed tabs."
+msgstr "Nessuna scheda chiusa da ripristinare."
+
+msgctxt "undo closed tabs.preview"
+msgid "No matched tabs."
+msgstr "Non è stata trovata nessuna scheda con i criteri prescelti."
+
+
+#. check livemark command:
+#. use | to separate multiple name values:
+msgctxt "check livemark.names"
+msgid "check livemark"
+msgstr "controlla segnalibri live"
+
+msgctxt "check livemark.help"
+msgid "Execute to open the site."
+msgstr "Eseguire per aprire il sito."
+
+msgctxt "check livemark.description"
+msgid "Checks your livemarks."
+msgstr "Controlla i segnalibri Live alla ricerca di nuovi aggiornamenti."
+
+
