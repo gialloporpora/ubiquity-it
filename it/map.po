@@ -1,0 +1,40 @@
+# map.po
+# 
+# Localizers:
+# Sandro Della Giustina <sandrodll@yahoo.it>
+
+msgid ""
+msgstr ""
+"Project-Id-Version: Ubiquity 0.5\n"
+"POT-Creation-Date: 2009-06-20 00:47+0900\n"
+
+#. map command:
+#. use | to separate multiple name values:
+msgctxt "map.names"
+msgid "map"
+msgstr "mappa"
+
+msgctxt "map.help"
+msgid "Try issuing &quot;map kalamazoo&quot;.  You can click on the map in the preview pane to get a larger, interactive map that you can zoom and pan around.  You can then click the &quot;insert map in page&quot; (if you're in an editable text area) to insert the map.  So you can, for example, type an address in an email,  select it, issue &quot;map&quot;, click on the preview, and then insert the map."
+msgstr "Provare con &quot;mappa kalamazoo&quot;.  È possibile fare clic sulla miniatura dell'anteprima per accedere ad una mappa interattiva che è possibile ridimensionare e navigare  Facendo clic sul pulsante &quot;Insert&quot; è possibile inserire la cartina nella pagina corrente (se la pagina è modificabile). È possibile, per esempio, scrivere un indirizzo in un messaggio di posta,  selezionarlo, richiamare Ubiquity, scrivere &quot;map&quot;fare clic sull'anteprima e inserire la cartina nel messaggio di posta."
+
+msgctxt "map.description"
+msgid "Turns an address or location name into a Google Map."
+msgstr "Inserendo un indirizzo o il nome di una località, mostra la cartina utilizzando il servizio Google Maps."
+
+msgctxt "map.preview"
+msgid "Cannot insert in a non-editable space. Use 'edit page' for an editable page."
+msgstr "Impossibile inserire l'oggetto in un'area non modificabile Utilizzare 'modifica pagina' per creare una pagina da poter modificare."
+
+
+#. map these command:
+#. use | to separate multiple name values:
+msgctxt "map these.names"
+msgid "map these"
+msgstr "mappa questi"
+
+msgctxt "map these.description"
+msgid "Maps multiple selected addresses or links onto a single Google Map. (Experimental!)"
+msgstr Sovrappone più indirizzi selezionati in una singola mappa di Google. (Sperimentale)"
+
+
