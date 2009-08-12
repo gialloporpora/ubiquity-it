@@ -140,5 +140,10 @@ msgctxt "command history.description"
 msgid "Accesses your command history."
 msgstr "Accede allo storico comandi."
 
+msgctxt "command history.preview"
+msgid "No histories match."
+msgstr "Nessun elemento dello storico soddisfa i criteri specificati."
 
-
+msgctxt "command history.execute"
+msgid "Deleted matched histories. Click here to undo."
+msgstr: "Cancella gli elementi che soddisfano il pattern, Fare clic qui per ripristinare."
