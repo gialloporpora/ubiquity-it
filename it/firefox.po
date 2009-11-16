@@ -86,7 +86,7 @@ msgstr "Chiude tutte le schede che contengono la parola specificata."
 
 msgctxt "close all tabs with.execute"
 msgid "${num} tabs closed."
-msgstr ""
+msgstr "${num}schede sono state chiuse."
 
 
 #. count tabs command:
@@ -97,12 +97,7 @@ msgstr "quante schede|conta schede"
 
 msgctxt "count tabs.description"
 msgid "Counts the number of opened tabs."
-msgstr "Visualizza il numero di schede aperte."
-
-# added manually by mitcho
-# template in _count: no msgctxt as it is shared between preview + execute
-msgid "<div class="count-tabs"><b>${count}</b> tab{if count > 1}s{/if} {if html}matching <b>${html}</b>{else}total{/if}</b>.</div>"
-msgstr "<div class="count-tabs"><b>${count}</b> tab{if count > 1}s{/if} {if html}matching <b>${html}</b>{else}total{/if}</b>.</div>"
+msgstr "Mostra  il numero di schede aperte."
 
 
 #. refresh command:
@@ -198,7 +193,7 @@ msgstr "etichetta|tag"
 
 msgctxt "tag.help"
 msgid "Use commas to separate multiple tags."
-msgstr ""
+msgstr "Utilizzare la virgola per separare le etichette."
 
 msgctxt "tag.description"
 msgid "Adds tags to the current page."
@@ -206,7 +201,7 @@ msgstr "Aggiunge delle etichette alla pagina corrente."
 
 msgctxt "tag.preview"
 msgid "Describes the current page with{if html} these tags:<p><b>${html}</b></p>{else} tags.{/if}"
-msgstr "Describes the current page with{if html} these tags:<p><b>${html}</b></p>{else} tags.{/if}"
+msgstr "Descrive la pagina corrente con {if html} queste etichette:<p><b>${html}</b></p>{else} tags.{/if}"
 
 
 #. run bookmarklet command:

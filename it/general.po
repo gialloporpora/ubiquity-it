@@ -12,15 +12,15 @@ msgstr ""
 #. use | to separate multiple name values:
 msgctxt "bold.names"
 msgid "bold"
-msgstr ""
+msgstr "trasforma in grassetto"
 
 msgctxt "bold.description"
 msgid "If you're in a rich-text-edit area, makes the selected text bold."
-msgstr "Trasforma il testo selezionato in grassetto se si trova in un'area di puro testo."
+msgstr "Trasforma il testo selezionato in grassetto se si trova in un'area di testo formattabile."
 
 msgctxt "bold.execute"
 msgid "You're not in a rich text editing field."
-msgstr "Il testo selezionato non si trova in un campo di puro testo."
+msgstr "Il testo selezionato non si trova di testo formattabile."
 
 
 #. italicize command:
@@ -31,11 +31,11 @@ msgstr "trasmorma in corsivo"
 
 msgctxt "italicize.description"
 msgid "If you're in a rich-text-edit area, makes the selected text italic."
-msgstr "Trasforma il testo selezionato in corsivo se si trova in un'area di puro testo."
+msgstr "Trasforma il testo selezionato in corsivo se si trova in un'area di testo formattabile."
 
 msgctxt "italicize.execute"
 msgid "You're not in a rich text editing field."
-msgstr "Il testo selezionato non è all'interno di un campo di puro testo."
+msgstr "Il testo selezionato non è all'interno di un campo di testo formattabile."
 
 
 #. underline command:
@@ -46,11 +46,11 @@ msgstr "sottolinea"
 
 msgctxt "underline.description"
 msgid "If you're in a rich-text-edit area, underlines the selected text."
-msgstr "Sottolinea il testo selezionato se si trova in un'area di puro testo."
+msgstr "Sottolinea il testo selezionato se si trova in un'area di testo formattabile."
 
 msgctxt "underline.execute"
 msgid "You're not in a rich text editing field."
-msgstr "Il testo selezionato non è all'interno di un'area di puro testo."
+msgstr "Il testo selezionato non è all'interno di un'area di testo formattabile."
 
 
 #. highlight command:
@@ -61,7 +61,7 @@ msgstr "evidenzia"
 
 msgctxt "highlight.description"
 msgid "Highlights your current selection, like <span style=\"background: yellow; color: black;\">this</span>."
-msgstr "Evidenzia il testo selezionato se si trova in un'area di puro testo."
+msgstr "Evidenzia il testo selezionato se si trova in un'area di testo formattabile."
 
 
 #. undo (text edit) command:

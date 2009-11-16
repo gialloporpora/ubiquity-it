@@ -77,9 +77,12 @@ class POCFile(File):
 			l2.append((x.strip(),y.strip()))
 		return l2
 	def add(self,t):
-		
+		""" Add an entry in the catalog file only if it is  not already in the catalog file.
+		If you want to replace an existing entry use the method update instead.
+		"""
 		global item_del,value_del
-		self._content+=item_del+"\n%s\n"+value_del+"\n%s\n"+item_del+"\n" %t
+		if not(self._contentDict.has_key(t[0])):
+			self._content+=item_del+"\n%s\n"+value_del+"\n%s\n"+item_del+"\n" %t
 
 
 
